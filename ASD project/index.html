@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ASD Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <img src="assets/apple-icon.png" alt="apple icon">
+        <p class="time" id="time1"></p>
+    </header>
+    <main>
+        <section class="app" id="app">
+            <div class="header">
+                <div class="options">
+                    <div class="circle red"></div>
+                    <div class="circle orange"></div>
+                    <div class="circle grey"></div>
+                </div>
+                <h3>Desktop & Screen Saver</h3>
+                <div class="search">
+                    <img src="assets/search.png" width="20" height="20" alt="search">
+                    <p>Search</p>
+                </div>
+            </div>
+            <div id="content">
+                <div class="grey-body">
+                    <div class="white-square">
+                        <img class="back-img" src="assets/0.jpg" alt="0 icon" onclick="changeBackground()"/>
+                        <img class="back-img" src="assets/1.jpg" alt="1 icon" onclick="changeBackground()"/>
+                        <img class="back-img" src="assets/2.jpg" alt="2 icon" onclick="changeBackground()"/>
+                        <img class="back-img" src="assets/3.jpg" alt="3 icon" onclick="changeBackground()"/>
+                        <img class="back-img" src="assets/4.jpg" alt="4 icon" onclick="changeBackground()"/>
+                        <img class="back-img" src="assets/background.png" alt="5 icon" onclick="changeBackground()"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul class="menu">
+            <div class="circle_red red_message">
+                <p class="circle_number">39</p>
+            </div>
+            <li class="menu-item"><img class="logo" src="assets/Mail.png" alt="mail icon"></li>
+            <li class="menu-item"><img class="logo" src="assets/mozilla.png" alt="mozilla icon"></li>
+            <li class="menu-item"><img class="logo" src="assets/Settings.png" alt="settings icon" id="settings"></li>
+            <li class="menu-item"><img class="logo" src="assets/Telegram.png" alt="telegram icon"></li>
+            <li class="menu-item"><img class="logo" src="assets/Console.png" alt="console icon"></li>
+            <hr>
+            <li class="menu-item"><img class="logo" src="assets/Bean.png" alt="bean icon"></li>
+        </ul>
+    </footer>
+</body>
+</html>
